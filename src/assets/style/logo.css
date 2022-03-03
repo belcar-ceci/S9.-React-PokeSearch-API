@@ -1,0 +1,16 @@
+.logoMain{
+    width: 8%;
+    height: 8%;
+}
+.logo-uno{
+    height: 5vw;
+    width: 5vw;
+    
+}
+@media (max-width:768px){
+    .logo-uno {
+        height: 9vw;
+        width: 5vw;
+    }
+
+}

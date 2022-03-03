@@ -1,0 +1,97 @@
+
+main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-home{
+    justify-content: center;
+    margin: 4% 4% 4%;
+    justify-content: center;
+    /* width: 100vh; */
+    /* height: 80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-right: 10%;
+}
+.Title{
+    font-size: 4.1em;
+    margin:0;  
+    background-image:
+    linear-gradient(to right, rgb(71, 119, 230) 0%, rgb(141, 84, 233) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Fredoka', sans-serif;
+}
+.lorem-ipsum{
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: rgba(105, 108, 115, 1);
+    font-family: 'Fredoka', sans-serif;
+}
+
+.btnAuth{
+    margin: 9%;
+    
+}
+.btnLogin{
+    width:  12vw;
+    height: 4vw;
+    border-radius: 10px;
+    background: linear-gradient(to right, #006b96 0%, #fad1ff 100%);
+    font-size: 1em;
+    border: none;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    margin-bottom: 3%;
+    font-family: 'Fredoka', sans-serif;
+    margin-left: 1%;
+    
+}
+.btnRegister{
+    width:  12vw;
+    height: 4vw;
+    border-radius: 10px;
+    background: linear-gradient(to right, #db1ad8 0%, #faffd1 100%);
+    font-size: 1em;
+    border: none;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    font-family: 'Fredoka', sans-serif;
+}
+
+@media (max-width: 768px){ 
+.container-home {
+    display: grid;
+    justify-content: center;
+    margin: 10%;
+}
+
+.section-card {
+    width: 50vw;
+    text-align: center;
+
+}
+.btnAuth{
+    margin: 10%;
+    display: grid;
+    justify-items: center;
+}
+
+}
