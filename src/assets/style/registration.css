@@ -1,0 +1,72 @@
+.outer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-register{
+width: 400px;
+background: rgb(199,76,130);
+background: linear-gradient(326deg, rgba(199,76,130,1) 0%, rgba(167,148,233,1) 100%);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'Fredoka', sans-serif;
+  }
+.form-container{
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.form-control{
+    width: 98%;
+    background: #d1dfec;
+    padding: 7px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+    border: 1px solid #c51f8e;
+    font-family: 'calibri';
+    font-size: 1em;
+    color: rgb(70, 66, 66);
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f88c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family: 'Fredoka', sans-serif;
+  }
