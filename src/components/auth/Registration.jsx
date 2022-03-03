@@ -101,8 +101,8 @@ function Registration() {
                 >
                   <option>Select</option>
                   <option>Artist</option>
-                  <option>Photographer</option>
-                  <option>Team Player</option>
+                  <option>Frontend</option>
+                  <option>Gamers</option>
                   <option>Full Stack</option>
                 </Form.Control>
               </div>

@@ -16,7 +16,7 @@ const NavBar = () => {
         <ul className='boxList'>
           <li><NavLink to="/" className="inactive" activeClassName="active" exact={true}>Home</NavLink></li>
           <li><NavLink to='compare' className="inactive" activeClassName="active" exact={true}>Compare</NavLink></li>
-          <li><NavLink to='about-me' className="inactive" activeClassName="active" exact={true}>About Me</NavLink></li>
+          <li><NavLink to='about' className="inactive" activeClassName="active" exact={true}>About Me</NavLink></li>
         </ul>
 
       </nav>
